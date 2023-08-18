@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #f1f3f6;
-    padding: 20px 100px 20px 100px;
+    padding: 10px 100px 10px 100px;
     color: #583bb6;
 }
 
@@ -62,4 +62,9 @@ section {
 
 .home-right p {
     font-size: 20px;
+}
+
+.home-tips {
+    padding: 5px 0px 5px 5px;
+    background-color: #e2e59d;
 }
