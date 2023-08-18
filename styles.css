@@ -46,7 +46,15 @@ section {
     margin-bottom: 50px;
 }
 
-h1 {
-    font-size: 100px;
+#home {
+
     margin-bottom: 20px;
+}
+
+.home-left {
+    font-size: 50px;
+}
+
+.home-right {
+    font-size: 20px;
 }
