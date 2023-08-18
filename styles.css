@@ -52,6 +52,10 @@ section {
     margin-bottom: 20px;
 }
 
+.home-left {
+    margin-right: 100px;
+}
+
 .home-left p {
     font-size: 50px;
 }
