@@ -54,17 +54,21 @@ section {
 
 .home-left {
     margin-right: 100px;
+    padding: 20px 0px 0px 0px;
 }
 
 .home-left p {
     font-size: 50px;
+    padding: 5px 0px 5px 5px;
+
 }
 
 .home-right p {
     font-size: 20px;
+    background-color: #dadad3;
 }
 
-.home-tips {
+
+.home-tips li {
     padding: 5px 0px 5px 5px;
-    background-color: #e2e59d;
 }
