@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #f1f3f6;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 50px 10px 50px;
     color: #583bb6;
 }
 
@@ -52,7 +52,7 @@ section {
     margin-top: 100px;
     margin-right: 0px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
 #home {
