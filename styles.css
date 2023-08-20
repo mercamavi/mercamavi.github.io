@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 100px;
+    padding: 10px 100px 0px 0px;
 }
 
 .menu {
@@ -39,7 +39,7 @@ nav {
 }
 
 main {
-    padding: 200px;
+    padding: 50px;
 }
 
 section {
