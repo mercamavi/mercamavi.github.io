@@ -46,8 +46,10 @@ section {
     margin-bottom: 50px;
 }
 
-.background {
+#background {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 #home {
