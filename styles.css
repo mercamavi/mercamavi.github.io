@@ -50,13 +50,15 @@ section {
 
 #home {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .home-left {
     margin-right: 40px;
-    vertical-align: middle;
+
     /*padding: 50px 0px 0px 45px;*/
 }
 
@@ -66,7 +68,7 @@ section {
 
 .home-left p {
     font-size: 50px;
-    vertical-align: middle;
+    /*text-align: justify;*/
     /*padding: 5px 0px 5px 5px;*/
 
 }
