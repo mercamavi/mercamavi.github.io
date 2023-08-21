@@ -62,8 +62,8 @@ section {
 }
 
 .home-left {
-    margin-right: 100px;
-    padding: 20px 0px 0px 0px;
+    margin-right: 50px;
+    padding: 20px 0px 0px 45px;
 }
 
 .home-right {
@@ -84,4 +84,13 @@ section {
 
 .home-tips li {
     padding: 5px 0px 5px 5px;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
