@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     color: #333;
     background-color: #f1f3f6;
+    max-width: 100%;
 }
 
 header {
@@ -40,6 +41,7 @@ nav {
 
 main {
     padding: 50px Opx 50px 50px;
+
 }
 
 section {
