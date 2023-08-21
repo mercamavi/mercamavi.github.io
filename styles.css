@@ -54,14 +54,14 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-left: 50px;
     margin-top: 50px;
 }
 
 .home-left {
     margin-right: 40px;
 
-    /*padding: 50px 0px 0px 45px;*/
+    padding: 0px 0px 0px 50px;
+    */
 }
 
 .home-right {
