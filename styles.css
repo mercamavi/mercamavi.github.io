@@ -56,7 +56,8 @@ section {
 
 .home-left {
     margin-right: 40px;
-    padding: 50px 0px 0px 45px;
+    vertical-align: middle;
+    /*padding: 50px 0px 0px 45px;*/
 }
 
 .home-right {
