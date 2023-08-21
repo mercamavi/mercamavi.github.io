@@ -54,6 +54,7 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .home-left {
@@ -64,6 +65,7 @@ section {
 
 .home-right {
     background-color: #d1d1bc;
+    margin-right: 10px;
 }
 
 .home-left p {
