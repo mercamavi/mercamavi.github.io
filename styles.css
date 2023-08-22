@@ -141,8 +141,19 @@ section {
     padding: 0px 0px 0px 50px;
 }
 
+.proj_grid {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
     #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proj_grid {
         flex-direction: column;
         align-items: center;
     }
