@@ -13,6 +13,8 @@ body {
 }
 
 header {
+    position: -webkit-sticky;
+    position: sticky;
     background-color: #f1f3f6;
     padding: 10px 50px 10px 50px;
     color: #583bb6;
@@ -125,4 +127,15 @@ section {
     margin-right: 0px;
     margin-bottom: 20px;
     margin-left: 50px;
+}
+
+.proj_one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proj_col {
+    display: flex;
+    justify-content: center;
 }
