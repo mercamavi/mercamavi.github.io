@@ -120,7 +120,7 @@ section {
     margin-left: 50px;
 }
 
-#projects {
+/*#projects {
     display: flex;
     justify-content: left;
     margin-top: 100px;
@@ -128,7 +128,7 @@ section {
     margin-bottom: 20px;
     margin-left: 50px;
     align-items: center;
-}
+}*/
 
 .proj_one {
     display: flex;
@@ -145,13 +145,17 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 @media screen and (max-width: 768px) {
-    #projects {
+    /*#projects {
         flex-direction: column;
         align-items: center;
-    }
+    }*/
 
     .proj_grid {
         flex-direction: column;
