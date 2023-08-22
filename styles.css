@@ -127,15 +127,23 @@ section {
     margin-right: 0px;
     margin-bottom: 20px;
     margin-left: 50px;
+    align-items: center;
 }
 
 .proj_one {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: left;*/
 }
 
 .proj_col {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
+    padding: 0px 0px 0px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
 }
