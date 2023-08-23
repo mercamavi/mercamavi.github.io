@@ -155,6 +155,10 @@ section {
     .proj_col {
         padding-top: 40px;
     }
+
+    .proj_grid {
+        margin-top: 0px;
+    }
 }
 
 .rep_cod_links {
