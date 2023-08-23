@@ -133,13 +133,13 @@ section {
 
 .proj_col {
     flex: 1;
-    padding: 20px 50px 0px 0px;
+    padding: 10px 50px 0px 0px;
 
 }
 
 .proj_grid {
 
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -153,7 +153,7 @@ section {
     }
 
     .proj_col {
-        padding-top: 40px;
+        padding-top: 10px;
     }
 
     .proj_grid {
