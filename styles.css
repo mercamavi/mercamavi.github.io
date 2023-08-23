@@ -83,6 +83,7 @@ section {
 .home-right {
     background-color: #d1d1bc;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .home-left p {
@@ -166,4 +167,9 @@ section {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.rep_cod_links {
+    display: flex;
+    flex-wrap: wrap;
 }
