@@ -54,7 +54,6 @@ section {
 
 #home {
     display: flex;
-    /*justify-content: space-between;*/
     justify-content: left;
     align-items: center;
     margin-bottom: 20px;
@@ -88,8 +87,6 @@ section {
 
 .home-left p {
     font-size: 40px;
-    /*text-align: justify;*/
-    /*padding: 5px 0px 5px 5px;*/
 
 }
 
@@ -107,7 +104,7 @@ section {
     display: flex;
     justify-content: left;
     margin-top: 100px;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-bottom: 20px;
     margin-left: 50px;
 }
@@ -116,20 +113,12 @@ section {
     display: flex;
     justify-content: left;
     margin-top: 100px;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-bottom: 20px;
     margin-left: 50px;
 }
 
-/*#projects {
-    display: flex;
-    justify-content: left;
-    margin-top: 100px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    align-items: center;
-}*/
+
 #projects {
     margin-top: 100px;
     margin-left: 50px;
@@ -138,34 +127,33 @@ section {
 
 .proj_one {
     display: flex;
-    /* justify-content: left;*/
+    /* flex-wrap: wrap;*/
+
 }
 
 .proj_col {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    padding: 0px 50px 0px 0px;
+    flex: 1;
+    padding: 20px 50px 0px 0px;
+
 }
 
 .proj_grid {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    /*margin-top: 100px;*/
+
+    margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 20px;
-    /*margin-left: 50px;*/
+    margin-left: 0px;
+    */
 }
 
-@media screen and (max-width: 768px) {
-    /*#projects {
+@media screen and (max-width: 780px) {
+    .proj_one {
         flex-direction: column;
         align-items: center;
-    }*/
+    }
 
-    .proj_grid {
-        flex-direction: column;
-        align-items: center;
+    .proj_col {
+        padding-top: 40px;
     }
 }
 
@@ -178,6 +166,6 @@ section {
     margin-top: 20px;
     margin-right: 20px;
     background-color: #d1d1bc;
-    border-radius: 20%;
+    border-radius: 10%;
 
 }
