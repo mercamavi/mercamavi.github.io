@@ -170,6 +170,14 @@ section {
 }
 
 .rep_cod_links {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+}
+
+.pro_info_link {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #d1d1bc;
+    border-radius: 20%;
+
 }
