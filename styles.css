@@ -173,3 +173,25 @@ section {
     border-radius: 10%;
 
 }
+
+#contact {
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.type-contact {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.type-contact a {
+    color: #353535;
+}
+
+.type-contact a:hover {
+    color: #0918e0;
+}
